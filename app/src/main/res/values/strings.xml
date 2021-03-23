@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PirmasLaboratorinis</string>
+    <string name="app_title">Registracijos langas</string>
+    <string name="login_username">Vardas</string>
+    <string name="login_password">Slaptažodis</string>
+    <string name="login_register">Registruotis</string>
+    <string name="login_sign_in">Prisijungti</string>
+    <string name="password">slaptazodis</string>
+    <string name="email">el. pastas</string>
+    <string name="login_invalid_credentials">Neteisingai įvesti duomenys</string>
+    <string name="login_invalid_username">invalid username</string>
+    <string name="login_invalid_email">invalid username</string>
+    <string name="login_invalid_password">invalid username</string>
+</resources>

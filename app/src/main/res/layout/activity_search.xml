@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_blue"
+    android:paddingTop="40dp"
+    android:paddingLeft="10dp"
+    tools:context=".SearchActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registracijos langas"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:textSize="45dp"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+    <EditText
+
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="@string/login_username"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint="@string/email"/>
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:inputType="textPassword"
+        android:hint="@string/login_password"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_register"
+        android:textSize="30dp"
+        android:backgroundTint="@color/lighter_blue"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/login_sign_in"
+        android:textSize="30dp"
+        android:backgroundTint="@color/lighter_blue"/>
+
+
+</LinearLayout>
